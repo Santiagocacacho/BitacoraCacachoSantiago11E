@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bitácora Cacacho Santiago</title>
 
-<link rel="icon" href="recursos/img/LECapu.png.png" type="image/png">
-   
+    <link rel="icon" href="recursos/img/LECapu.png.png" type="image/png">
+    
     <style>
         html, body{
             height: 100%;
@@ -38,91 +38,83 @@
         }
 
         h1 {
-    color: white;
-    text-shadow:
-        0 0 5px #fff,
-        0 0 10px #bc13fe,
-        0 0 20px #bc13fe,
-        0 0 40px #bc13fe;
-}
+            color: white;
+            text-shadow:
+                0 0 5px #fff,
+                0 0 10px #bc13fe,
+                0 0 20px #bc13fe,
+                0 0 40px #bc13fe;
+        }
 
-.logo {
-   
-    height: 40px;
-    width: auto;
-    transition: transform 0.3s ease;
-}
+        .logo {
+            height: 40px;
+            width: auto;
+            transition: transform 0.3s ease;
+        }
 
-.logo:hover {
-    transform: scale(1.1);
-}
-.semana {
-    background-color: #f9f9f9;
-    border-radius: 15px;      
-    padding: 30px;
-    margin: 40px auto;        
-   
-    max-width: 1400px;
-    width: 95%;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-    border-left: 10px solid #bc13fe;
-    text-align: left;
-   
-   
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    align-items: center;
-}
+        .logo:hover {
+            transform: scale(1.1);
+        }
+        .semana {
+            background-color: #f9f9f9;
+            border-radius: 15px;      
+            padding: 30px;
+            margin: 40px auto;        
+            
+            max-width: 1400px;
+            width: 95%;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            border-left: 10px solid #bc13fe;
+            text-align: left;
+            
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            align-items: center;
+        }
 
-.visor-pdf {
-   
-    flex: 2;
-    min-width: 600px;
-    height: 500px;  
-    border: 2px solid #bc13fe;
-    border-radius: 10px;
-}
+        .visor-pdf {
+            flex: 2;
+            min-width: 600px;
+            height: 500px;  
+            border: 2px solid #bc13fe;
+            border-radius: 10px;
+        }
 
+        .info-semana {
+            flex: 1;
+            min-width: 250px;
+        }
+        .semana:hover {
+            transform: scale(1.02);
+        }
 
-.info-semana {
-    flex: 1;
-    min-width: 250px;
-}
-.semana:hover {
-    transform: scale(1.02);
-}
+        .boton-descarga {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: #bc13fe;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
 
+        .boton-descarga:hover {
+            background-color: #9b10d1;
+            transform: scale(1.05);    
+        }
 
-.boton-descarga {
-    display: inline-block;
-    margin-top: 15px;
-    padding: 10px 20px;
-    background-color: #bc13fe;
-    color: white;
-    text-decoration: none;
-    border-radius: 25px;
-    font-weight: bold;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-}
-
-.boton-descarga:hover {
-    background-color: #9b10d1;
-    transform: scale(1.05);    
-}
-
-
-
-.visor-pdf {
-    width: 100%;
-    height: 300px;
-    border: 2px solid #bc13fe;
-    border-radius: 10px;
-    margin-top: 15px;
-}
+        .visor-pdf {
+            width: 100%;
+            height: 300px;
+            border: 2px solid #bc13fe;
+            border-radius: 10px;
+            margin-top: 15px;
+        }
     </style>
 </head>
-<head>
 <body>
     <header>
         <h1>Bitácora Segunda y Tercera Unidad</h1>
@@ -151,7 +143,7 @@
         </video>
     </div>
 
-  <div class="semana">
+    <div class="semana">
         <div class="info-semana">
             <h2>Semana 3: Práctica con Arduino</h2>
             <p>Circuito realizado en clase:</p>
@@ -164,12 +156,28 @@
         </div>
     </div>
     
+    <div class="semana">
+        <div class="info-semana">
+            <h2>Semana 4</h2>
+            <p>Circuito semáforo realizado en clase.</p>
+        </div>
+        
+        <video class="visor-pdf" controls>
+            <source src="recursos/videos/videotics3.mp4" type="video/mp4">
+        </video>
+    </div>
+    
 </main>
 
-    <footer>
+<footer>
     <span>ccacacho_</span>
     <a href="https://www.capouilliez.edu.gt/index.php" target="_blank">
         <img class="logo" src="https://www.capouilliez.edu.gt/assets/img/logo.png" alt="Logo Colegio Capouilliez">
+    </a>
+</footer>
+
+</body>
+</html>
     </a>
 </footer>
 
